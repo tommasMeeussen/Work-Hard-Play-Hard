@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7E73CA63260B7B8E00B2DFB1 /* LoginScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E73CA62260B7B8E00B2DFB1 /* LoginScene.sks */; };
 		7E73CA65260B7BAE00B2DFB1 /* LoginScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E73CA64260B7BAE00B2DFB1 /* LoginScene.swift */; };
+		7E73CA67260B854700B2DFB1 /* TimerScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E73CA66260B854700B2DFB1 /* TimerScene.sks */; };
+		7E73CA69260B855800B2DFB1 /* TimerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E73CA68260B855800B2DFB1 /* TimerScene.swift */; };
 		7EF2111426092C2D009FFDE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2111326092C2D009FFDE0 /* AppDelegate.swift */; };
 		7EF2111626092C2D009FFDE0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2111526092C2D009FFDE0 /* GameScene.sks */; };
 		7EF2111826092C2D009FFDE0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2111726092C2D009FFDE0 /* Actions.sks */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		7E73CA62260B7B8E00B2DFB1 /* LoginScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LoginScene.sks; sourceTree = "<group>"; };
 		7E73CA64260B7BAE00B2DFB1 /* LoginScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScene.swift; sourceTree = "<group>"; };
+		7E73CA66260B854700B2DFB1 /* TimerScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TimerScene.sks; sourceTree = "<group>"; };
+		7E73CA68260B855800B2DFB1 /* TimerScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerScene.swift; sourceTree = "<group>"; };
 		7EF2111026092C2D009FFDE0 /* Work Hard Play Hard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Work Hard Play Hard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF2111326092C2D009FFDE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EF2111526092C2D009FFDE0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				7EF2112526092C2F009FFDE0 /* Info.plist */,
 				7E73CA62260B7B8E00B2DFB1 /* LoginScene.sks */,
 				7E73CA64260B7BAE00B2DFB1 /* LoginScene.swift */,
+				7E73CA66260B854700B2DFB1 /* TimerScene.sks */,
+				7E73CA68260B855800B2DFB1 /* TimerScene.swift */,
 			);
 			path = "Work Hard Play Hard";
 			sourceTree = "<group>";
@@ -143,6 +149,7 @@
 				7EF2112126092C2F009FFDE0 /* Assets.xcassets in Resources */,
 				7EF2112426092C2F009FFDE0 /* LaunchScreen.storyboard in Resources */,
 				7EF2111826092C2D009FFDE0 /* Actions.sks in Resources */,
+				7E73CA67260B854700B2DFB1 /* TimerScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EF2111A26092C2D009FFDE0 /* GameScene.swift in Sources */,
+				7E73CA69260B855800B2DFB1 /* TimerScene.swift in Sources */,
 				7EF2111C26092C2D009FFDE0 /* GameViewController.swift in Sources */,
 				7E73CA65260B7BAE00B2DFB1 /* LoginScene.swift in Sources */,
 				7EF2111426092C2D009FFDE0 /* AppDelegate.swift in Sources */,
