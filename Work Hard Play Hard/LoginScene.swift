@@ -24,7 +24,7 @@ class LoginScene: SKScene{
         for t in touches{
             let touchLocation = t.location(in: self)
             
-            if atPoint(touchLocation).name == "startGame"{
+            if atPoint(touchLocation).name == "lblTitle"{
                 let gameScene = SKScene(fileNamed: "GameScene")
                 gameScene?.scaleMode = .aspectFit
                 view?.presentScene(gameScene!, transition: SKTransition.doorsOpenVertical(withDuration: TimeInterval(2)))
