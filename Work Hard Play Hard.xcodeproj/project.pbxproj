@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E73CA63260B7B8E00B2DFB1 /* LoginScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E73CA62260B7B8E00B2DFB1 /* LoginScene.sks */; };
+		7E73CA65260B7BAE00B2DFB1 /* LoginScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E73CA64260B7BAE00B2DFB1 /* LoginScene.swift */; };
 		7EF2111426092C2D009FFDE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2111326092C2D009FFDE0 /* AppDelegate.swift */; };
 		7EF2111626092C2D009FFDE0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2111526092C2D009FFDE0 /* GameScene.sks */; };
 		7EF2111826092C2D009FFDE0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2111726092C2D009FFDE0 /* Actions.sks */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E73CA62260B7B8E00B2DFB1 /* LoginScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LoginScene.sks; sourceTree = "<group>"; };
+		7E73CA64260B7BAE00B2DFB1 /* LoginScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScene.swift; sourceTree = "<group>"; };
 		7EF2111026092C2D009FFDE0 /* Work Hard Play Hard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Work Hard Play Hard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF2111326092C2D009FFDE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EF2111526092C2D009FFDE0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				7EF2112026092C2F009FFDE0 /* Assets.xcassets */,
 				7EF2112226092C2F009FFDE0 /* LaunchScreen.storyboard */,
 				7EF2112526092C2F009FFDE0 /* Info.plist */,
+				7E73CA62260B7B8E00B2DFB1 /* LoginScene.sks */,
+				7E73CA64260B7BAE00B2DFB1 /* LoginScene.swift */,
 			);
 			path = "Work Hard Play Hard";
 			sourceTree = "<group>";
@@ -133,6 +139,7 @@
 			files = (
 				7EF2111F26092C2D009FFDE0 /* Main.storyboard in Resources */,
 				7EF2111626092C2D009FFDE0 /* GameScene.sks in Resources */,
+				7E73CA63260B7B8E00B2DFB1 /* LoginScene.sks in Resources */,
 				7EF2112126092C2F009FFDE0 /* Assets.xcassets in Resources */,
 				7EF2112426092C2F009FFDE0 /* LaunchScreen.storyboard in Resources */,
 				7EF2111826092C2D009FFDE0 /* Actions.sks in Resources */,
@@ -148,6 +155,7 @@
 			files = (
 				7EF2111A26092C2D009FFDE0 /* GameScene.swift in Sources */,
 				7EF2111C26092C2D009FFDE0 /* GameViewController.swift in Sources */,
+				7E73CA65260B7BAE00B2DFB1 /* LoginScene.swift in Sources */,
 				7EF2111426092C2D009FFDE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
