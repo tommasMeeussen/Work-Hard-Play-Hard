@@ -18,6 +18,7 @@ class TimerScene: SKScene, UITextFieldDelegate{
     var lblPauseTimer = SKLabelNode()
     var lblStopTimer = SKLabelNode()
     var lblStartGame = SKLabelNode()
+    var lblProductive = SKLabelNode()
     
      override func didMove( to view: SKView){
             self.anchorPoint = CGPoint(x: 0.5, y: 0.5)
@@ -33,6 +34,8 @@ class TimerScene: SKScene, UITextFieldDelegate{
             lblStopTimer = self.childNode(withName: "lblStopTimer") as! SKLabelNode
             
             lblStartGame = self.childNode(withName: "lblStartGame") as! SKLabelNode
+        
+        lblProductive = self.childNode(withName: "lblProductive") as! SKLabelNode
 
             
     }
@@ -49,6 +52,15 @@ class TimerScene: SKScene, UITextFieldDelegate{
                 gameScene?.scaleMode = .aspectFit
                 view?.presentScene(gameScene!)
             }
+            
+            if atPoint(touchLocation).name == "lblProductive"{
+               
+
+                let gameScene = SKScene(fileNamed: "ProductivityScene")
+                gameScene?.scaleMode = .aspectFit
+                view?.presentScene(gameScene!)
+            }
+
         }
     }
     
