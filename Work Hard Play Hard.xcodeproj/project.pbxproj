@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005D1E0E260FE07100C7671D /* SignUpScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005D1E0D260FE07100C7671D /* SignUpScene.swift */; };
+		005D1E11260FE12100C7671D /* UserSettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005D1E10260FE12100C7671D /* UserSettingsScene.swift */; };
+		005D1E14260FE17C00C7671D /* SignUpScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 005D1E13260FE17C00C7671D /* SignUpScene.sks */; };
 		3075276A260FC4C400298A77 /* ProductivityScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30752769260FC4C400298A77 /* ProductivityScene.sks */; };
 		3075276E260FC53F00298A77 /* ProductivityScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3075276D260FC53F00298A77 /* ProductivityScene.swift */; };
 		30752774260FD47400298A77 /* ProductivityMainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30752773260FD47400298A77 /* ProductivityMainScene.swift */; };
@@ -26,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		005D1E0D260FE07100C7671D /* SignUpScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScene.swift; sourceTree = "<group>"; };
+		005D1E10260FE12100C7671D /* UserSettingsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsScene.swift; sourceTree = "<group>"; };
+		005D1E13260FE17C00C7671D /* SignUpScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SignUpScene.sks; sourceTree = "<group>"; };
 		30752769260FC4C400298A77 /* ProductivityScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ProductivityScene.sks; sourceTree = "<group>"; };
 		3075276D260FC53F00298A77 /* ProductivityScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityScene.swift; sourceTree = "<group>"; };
 		30752773260FD47400298A77 /* ProductivityMainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityMainScene.swift; sourceTree = "<group>"; };
@@ -93,6 +99,9 @@
 				3075276D260FC53F00298A77 /* ProductivityScene.swift */,
 				30752773260FD47400298A77 /* ProductivityMainScene.swift */,
 				30752776260FD4E700298A77 /* ProductivityMainScene.sks */,
+				005D1E0D260FE07100C7671D /* SignUpScene.swift */,
+				005D1E10260FE12100C7671D /* UserSettingsScene.swift */,
+				005D1E13260FE17C00C7671D /* SignUpScene.sks */,
 			);
 			path = "Work Hard Play Hard";
 			sourceTree = "<group>";
@@ -163,6 +172,7 @@
 				7EF2112126092C2F009FFDE0 /* Assets.xcassets in Resources */,
 				7EF2112426092C2F009FFDE0 /* LaunchScreen.storyboard in Resources */,
 				7EF2111826092C2D009FFDE0 /* Actions.sks in Resources */,
+				005D1E14260FE17C00C7671D /* SignUpScene.sks in Resources */,
 				7E73CA67260B854700B2DFB1 /* TimerScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,12 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005D1E0E260FE07100C7671D /* SignUpScene.swift in Sources */,
 				7EF2111A26092C2D009FFDE0 /* GameScene.swift in Sources */,
 				7E73CA69260B855800B2DFB1 /* TimerScene.swift in Sources */,
 				7EF2111C26092C2D009FFDE0 /* GameViewController.swift in Sources */,
 				7E73CA65260B7BAE00B2DFB1 /* LoginScene.swift in Sources */,
 				3075276E260FC53F00298A77 /* ProductivityScene.swift in Sources */,
 				7EF2111426092C2D009FFDE0 /* AppDelegate.swift in Sources */,
+				005D1E11260FE12100C7671D /* UserSettingsScene.swift in Sources */,
 				30752774260FD47400298A77 /* ProductivityMainScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

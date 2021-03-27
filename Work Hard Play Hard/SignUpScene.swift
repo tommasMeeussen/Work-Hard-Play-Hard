@@ -1,8 +1,8 @@
 //
-//  LoginScene.swift
+//  SignUpScene.swift
 //  Work Hard Play Hard
 //
-//  Created by Tommas Meeussen on 2021-03-24.
+//  Created by Onell Daniyal on 2021-03-27.
 //  Copyright © 2021 tm. All rights reserved.
 //
 
@@ -10,16 +10,14 @@ import Foundation
 import SpriteKit
 import UIKit
 
-class LoginScene: SKScene, UITextFieldDelegate{
+class SignUpScene: SKScene, UITextFieldDelegate{
     
     var lblTitle = SKLabelNode()
     var lblSignUp = SKLabelNode()
-    var lblLogin = SKLabelNode()
-    // let submitScore = SKSpriteNode(imageNamed: "button")
+    
     let submitTxtUserName = SKLabelNode(fontNamed: "arial")
     let submitTxtUserNameShadow = SKLabelNode(fontNamed: "arial")
     var txtUserName: UITextField!
-    
     let submitTxtPassword = SKLabelNode(fontNamed: "arial")
     let submitTxtPasswordShadow = SKLabelNode(fontNamed: "arial")
     var txtPassword: UITextField!
@@ -30,7 +28,6 @@ class LoginScene: SKScene, UITextFieldDelegate{
         //adding the Sprite Kit nodes to the Scene
         lblTitle = self.childNode(withName: "lblTitle") as! SKLabelNode
         lblSignUp = self.childNode(withName: "lblSignUp") as! SKLabelNode
-        lblLogin = self.childNode(withName: "lblLogin") as! SKLabelNode
         
         
         //Setting position of UIKit elements
@@ -38,7 +35,7 @@ class LoginScene: SKScene, UITextFieldDelegate{
         
         txtPassword = UITextField(frame: CGRect(x: view.bounds.width / 2 - 160, y: view.bounds.height / 2 - 20, width: 320, height: 40))
 
-        // adding subview of the UITextField's to the GameScene's view
+        // adding subview of the UITextFields
         view.addSubview(txtUserName)
         view.addSubview(txtPassword)
         
@@ -64,7 +61,7 @@ class LoginScene: SKScene, UITextFieldDelegate{
         
         txtPassword.borderStyle = UITextField.BorderStyle.roundedRect
         txtPassword.textColor = SKColor.black
-            txtPassword.placeholder = "Password"
+        txtPassword.placeholder = "Password"
         txtPassword.backgroundColor = SKColor.white
         txtPassword.autocorrectionType = UITextAutocorrectionType.yes
            
@@ -76,48 +73,24 @@ class LoginScene: SKScene, UITextFieldDelegate{
             submitTxtPassword.position = CGPoint(x: size.width / 2, y: size.height * 0.7)
             submitTxtUserName.text = "your text will show here"
         
-        //Adding Text Boxes As child nodes
+        //Adding Text Boxes as child nodes
             addChild(submitTxtUserName)
             addChild(submitTxtPassword)
-       
-        
-         
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         for t in touches{
             let touchLocation = t.location(in: self)
             
-            //Navigation to TimerScene when user clicks Login
-            if atPoint(touchLocation).name == "lblLogin"{
-                txtUserName.removeFromSuperview()
-                txtPassword.removeFromSuperview()
-
-                let gameScene = SKScene(fileNamed: "TimerScene")
-                gameScene?.scaleMode = .aspectFit
-                view?.presentScene(gameScene!)
-            }
-            
-            //Navigtion to SignUpScene when user clicks on SignUp
+            //Navigation to TimerScene when user creates account
             if atPoint(touchLocation).name == "lblSignUp"{
                 txtUserName.removeFromSuperview()
                 txtPassword.removeFromSuperview()
-                
-                let signUpScene = SKScene(fileNamed: "SignUpScene")
-                signUpScene?.scaleMode = .aspectFit
-                view?.presentScene(signUpScene!)
+
+                let timerScene = SKScene(fileNamed: "TimerScene")
+                timerScene?.scaleMode = .aspectFit
+                view?.presentScene(timerScene!)
             }
         }
     }
-    
-    //TODO: get text input
-//    func textFieldShouldReturn(textField: UITextField) -> Bool {
-//               // Populates the SKLabelNode
-//               submitScoreText.text = textField.text
-//
-//               // Hides the keyboard
-//
-//               textField.resignFirstResponder()
-//               return true
-//    }
 }
