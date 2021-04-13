@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1017390336172-pdmlj7fdt4s0vtkffoi4b7bt7to38bot.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1017390336172-pdmlj7fdt4s0vtkffoi4b7bt7to38bot</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCHYmAwvgz-QtJbmMTkw7Wioirf985qqjQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1017390336172</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tm.Work-Hard-Play-Hard</string>
+	<key>PROJECT_ID</key>
+	<string>workhardplayhard-ed4c4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>workhardplayhard-ed4c4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1017390336172:ios:22832fcb2c54594eb9f709</string>
+</dict>
+</plist>

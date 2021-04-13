@@ -14,6 +14,9 @@
 		3075276E260FC53F00298A77 /* ProductivityScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3075276D260FC53F00298A77 /* ProductivityScene.swift */; };
 		30752774260FD47400298A77 /* ProductivityMainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30752773260FD47400298A77 /* ProductivityMainScene.swift */; };
 		30752777260FD4E700298A77 /* ProductivityMainScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30752776260FD4E700298A77 /* ProductivityMainScene.sks */; };
+		7E6778AA26247D9C007119B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E6778A926247D9B007119B7 /* GoogleService-Info.plist */; };
+		7E6778AC26249311007119B7 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6778AB26249311007119B7 /* GameElements.swift */; };
+		7E6778B02625C472007119B7 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6778AF2625C472007119B7 /* Game.swift */; };
 		7E73CA63260B7B8E00B2DFB1 /* LoginScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E73CA62260B7B8E00B2DFB1 /* LoginScene.sks */; };
 		7E73CA65260B7BAE00B2DFB1 /* LoginScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E73CA64260B7BAE00B2DFB1 /* LoginScene.swift */; };
 		7E73CA67260B854700B2DFB1 /* TimerScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E73CA66260B854700B2DFB1 /* TimerScene.sks */; };
@@ -36,6 +39,9 @@
 		3075276D260FC53F00298A77 /* ProductivityScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityScene.swift; sourceTree = "<group>"; };
 		30752773260FD47400298A77 /* ProductivityMainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityMainScene.swift; sourceTree = "<group>"; };
 		30752776260FD4E700298A77 /* ProductivityMainScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ProductivityMainScene.sks; sourceTree = "<group>"; };
+		7E6778A926247D9B007119B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E6778AB26249311007119B7 /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		7E6778AF2625C472007119B7 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		7E73CA62260B7B8E00B2DFB1 /* LoginScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LoginScene.sks; sourceTree = "<group>"; };
 		7E73CA64260B7BAE00B2DFB1 /* LoginScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScene.swift; sourceTree = "<group>"; };
 		7E73CA66260B854700B2DFB1 /* TimerScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TimerScene.sks; sourceTree = "<group>"; };
@@ -63,6 +69,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E6778AD2624DDE9007119B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EF2111526092C2D009FFDE0 /* GameScene.sks */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7E6778AE2625C458007119B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7E6778AF2625C472007119B7 /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7E6778B126260946007119B7 /* ApplicationLogic */ = {
+			isa = PBXGroup;
+			children = (
+				7EF2111926092C2D009FFDE0 /* GameScene.swift */,
+			);
+			path = ApplicationLogic;
+			sourceTree = "<group>";
+		};
 		7EF2110726092C2D009FFDE0 = {
 			isa = PBXGroup;
 			children = (
@@ -82,10 +112,11 @@
 		7EF2111226092C2D009FFDE0 /* Work Hard Play Hard */ = {
 			isa = PBXGroup;
 			children = (
+				7E6778B126260946007119B7 /* ApplicationLogic */,
+				7E6778AE2625C458007119B7 /* Models */,
+				7E6778AD2624DDE9007119B7 /* Views */,
 				7EF2111326092C2D009FFDE0 /* AppDelegate.swift */,
-				7EF2111526092C2D009FFDE0 /* GameScene.sks */,
 				7EF2111726092C2D009FFDE0 /* Actions.sks */,
-				7EF2111926092C2D009FFDE0 /* GameScene.swift */,
 				7EF2111B26092C2D009FFDE0 /* GameViewController.swift */,
 				7EF2111D26092C2D009FFDE0 /* Main.storyboard */,
 				7EF2112026092C2F009FFDE0 /* Assets.xcassets */,
@@ -102,6 +133,8 @@
 				005D1E0D260FE07100C7671D /* SignUpScene.swift */,
 				005D1E10260FE12100C7671D /* UserSettingsScene.swift */,
 				005D1E13260FE17C00C7671D /* SignUpScene.sks */,
+				7E6778A926247D9B007119B7 /* GoogleService-Info.plist */,
+				7E6778AB26249311007119B7 /* GameElements.swift */,
 			);
 			path = "Work Hard Play Hard";
 			sourceTree = "<group>";
@@ -172,6 +205,7 @@
 				7EF2112126092C2F009FFDE0 /* Assets.xcassets in Resources */,
 				7EF2112426092C2F009FFDE0 /* LaunchScreen.storyboard in Resources */,
 				7EF2111826092C2D009FFDE0 /* Actions.sks in Resources */,
+				7E6778AA26247D9C007119B7 /* GoogleService-Info.plist in Resources */,
 				005D1E14260FE17C00C7671D /* SignUpScene.sks in Resources */,
 				7E73CA67260B854700B2DFB1 /* TimerScene.sks in Resources */,
 			);
@@ -184,11 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E6778AC26249311007119B7 /* GameElements.swift in Sources */,
 				005D1E0E260FE07100C7671D /* SignUpScene.swift in Sources */,
 				7EF2111A26092C2D009FFDE0 /* GameScene.swift in Sources */,
 				7E73CA69260B855800B2DFB1 /* TimerScene.swift in Sources */,
 				7EF2111C26092C2D009FFDE0 /* GameViewController.swift in Sources */,
 				7E73CA65260B7BAE00B2DFB1 /* LoginScene.swift in Sources */,
+				7E6778B02625C472007119B7 /* Game.swift in Sources */,
 				3075276E260FC53F00298A77 /* ProductivityScene.swift in Sources */,
 				7EF2111426092C2D009FFDE0 /* AppDelegate.swift in Sources */,
 				005D1E11260FE12100C7671D /* UserSettingsScene.swift in Sources */,

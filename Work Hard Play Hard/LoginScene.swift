@@ -94,7 +94,7 @@ class LoginScene: SKScene, UITextFieldDelegate{
                 txtPassword.removeFromSuperview()
 
                 let gameScene = SKScene(fileNamed: "TimerScene")
-                gameScene?.scaleMode = .aspectFit
+                gameScene?.scaleMode = .aspectFill
                 view?.presentScene(gameScene!)
             }
             

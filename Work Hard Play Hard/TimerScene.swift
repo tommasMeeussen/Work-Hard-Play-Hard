@@ -49,6 +49,7 @@ class TimerScene: SKScene, UITextFieldDelegate{
                
 
                 let gameScene = SKScene(fileNamed: "GameScene")
+                gameScene?.size = self.view?.bounds.size as! CGSize
                 gameScene?.scaleMode = .aspectFit
                 view?.presentScene(gameScene!)
             }
