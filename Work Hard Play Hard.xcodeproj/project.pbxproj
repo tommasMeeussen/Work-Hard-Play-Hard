@@ -77,20 +77,38 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		7E6778AE2625C458007119B7 /* Models */ = {
+		7E6778AE2625C458007119B7 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
 				7E6778AF2625C472007119B7 /* Game.swift */,
 			);
-			path = Models;
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		7E6778B126260946007119B7 /* ApplicationLogic */ = {
 			isa = PBXGroup;
 			children = (
+				7EF2111B26092C2D009FFDE0 /* GameViewController.swift */,
 				7EF2111926092C2D009FFDE0 /* GameScene.swift */,
 			);
 			path = ApplicationLogic;
+			sourceTree = "<group>";
+		};
+		7EB8009D262CC1850077913E /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				7E6778AD2624DDE9007119B7 /* Views */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		7EB8009E262CC1A60077913E /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				7E6778AE2625C458007119B7 /* Domain */,
+				7E6778B126260946007119B7 /* ApplicationLogic */,
+			);
+			path = ApplicationLayer;
 			sourceTree = "<group>";
 		};
 		7EF2110726092C2D009FFDE0 = {
@@ -112,12 +130,10 @@
 		7EF2111226092C2D009FFDE0 /* Work Hard Play Hard */ = {
 			isa = PBXGroup;
 			children = (
-				7E6778B126260946007119B7 /* ApplicationLogic */,
-				7E6778AE2625C458007119B7 /* Models */,
-				7E6778AD2624DDE9007119B7 /* Views */,
+				7EB8009E262CC1A60077913E /* ApplicationLayer */,
+				7EB8009D262CC1850077913E /* PresentationLayer */,
 				7EF2111326092C2D009FFDE0 /* AppDelegate.swift */,
 				7EF2111726092C2D009FFDE0 /* Actions.sks */,
-				7EF2111B26092C2D009FFDE0 /* GameViewController.swift */,
 				7EF2111D26092C2D009FFDE0 /* Main.storyboard */,
 				7EF2112026092C2F009FFDE0 /* Assets.xcassets */,
 				7EF2112226092C2F009FFDE0 /* LaunchScreen.storyboard */,

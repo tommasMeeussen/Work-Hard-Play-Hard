@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "RestartBtn.png",
+      "filename" : "restart.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
